@@ -29,7 +29,7 @@ import {
       },
       title: {
         display: true,
-        text: 'Chart.js Bar Chart',
+        text: 'monthly revenue',
       },
     },
   };
@@ -54,7 +54,7 @@ import {
 
 const BarChart = () => {
   return (
-    <div style={{width:"800px",height:"auto"}}>
+    <div style={{width:"100%"}}>
      <Bar options={options} data={data} />
     </div>
   );

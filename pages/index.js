@@ -20,8 +20,8 @@ export default function Home() {
    
    <TopCard/>
    <Grid container spacing={4}>
-    <Grid item><BarChart/></Grid> 
-    <Grid item> <RecentOrders/></Grid>
+    <Grid item xs={8}><BarChart/></Grid> 
+    <Grid item xs={4}> <RecentOrders/></Grid>
     
    
     </Grid>
