@@ -9,8 +9,8 @@ const RecentOrders = () => {
       <h1>RecentOrders</h1>
       <Grid container 
     justifyContent="center"
-    alignItems="center" spacing={3} style={{overflowY:"scroll",maxHeight:"400px",}}>{data.map((item) =><Grid item xs={10} ><OrderCard data={item} key={item.id}/></Grid>)} </Grid>
-    </Grid>
+    alignItems="center" spacing={3} style={{overflowY:"scroll",maxHeight:"400px",}}>{data.map((item) =><OrderCard data={item} key={item.id}/>)} 
+    </Grid></Grid>
   );
 };
 
